@@ -1,0 +1,33 @@
+# From: http://www.acuriousanimal.com/2016/08/14/configuring-atom-with-eslint.html
+# Then I began editing it
+{
+  "extends": "airbnb",
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true,
+    "mocha": true
+  },
+  "rules": {
+    "valid-jsdoc": ["error", {
+      "requireReturn": true,
+      "requireReturnType": true,
+      "requireParamDescription": true,
+      "requireReturnDescription": true
+    }],
+    "require-jsdoc": ["warn", {
+        "require": {
+            "FunctionDeclaration": true,
+            "MethodDefinition": true,
+            "ClassDeclaration": true
+        }
+    }],
+    "no-unused-vars": ["warn", { "vars": "all", "args": "after-used" }],
+    "no-plusplus": ["warn", { "allowForLoopAfterthoughts": true }],
+    "no-shadow": "warn",
+    "operator-assignment": "warn",
+    "no-param-reassign": "warn",
+    "import/no-extraneous-dependencies": ["warn", {"devDependencies": false, "optionalDependencies": false, "peerDependencies": false}]
+
+  }
+}

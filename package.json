@@ -1,0 +1,33 @@
+{
+  "name": "ts",
+  "version": "1.0.0",
+  "description": "A project to practice Node.js and Gulp (and HTML, CSS, and JavaScript, of course).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisco/ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisco/ts/issues"
+  },
+  "homepage": "https://github.com/chrisco/ts#readme",
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "normalize-css": "^2.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.10.0",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.6.0",
+    "gulp": "^3.9.1",
+    "gulp-watch": "^4.3.10"
+  }
+}
