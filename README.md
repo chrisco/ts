@@ -4,7 +4,7 @@ A project to practice Node.js and Gulp (and HTML, CSS, and JavaScript, of course
 
 ## Tutorial
 
-#### Initial Project Setup and Introduction to Gulp
+### Initial Project Setup and Introduction to Gulp
 
 (1) Clone initial commit.    
 (2) Install [Gulp](http://gulpjs.com/) (if you haven't done so already):
@@ -66,3 +66,12 @@ $ gulp watch
 ```
 
 The last one will 'watch' for changes and run tasks until you tell it to stop (with Ctrl + C).
+
+### Section 4: Lecture 10: Gulp and PostCSS
+
+```
+$ npm i gulp-postcss -D
+$ npm i autoprefixer -D
+$ npm i postcss-simple-vars -D
+$ npm i postcss-nested -D
+```
