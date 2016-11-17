@@ -28,7 +28,7 @@ __Initial Project Setup and Introduction to Gulp (cont.)__
 
 ```
 $ npm init -y
-$ npm i -S jquery normalize-css
+$ npm i -D jquery normalize-css
 $ npm i -D gulp gulp-watch
 ```
 
@@ -67,11 +67,17 @@ $ gulp watch
 
 The last one will 'watch' for changes and run tasks until you tell it to stop (with Ctrl + C).
 
-### Section 4: Lecture 10: Gulp and PostCSS
+### Section 4 (Gulp Essentials): Lecture 10 (Gulp and PostCSS)
 
 ```
 $ npm i gulp-postcss -D
 $ npm i autoprefixer -D
 $ npm i postcss-simple-vars -D
 $ npm i postcss-nested -D
+```
+
+### Section 5 (CSS Architecture): Lecture 11 (CSS File Architecture)
+
+```
+$ npm i postcss-import -D
 ```
