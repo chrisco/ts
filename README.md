@@ -100,3 +100,20 @@ Inside the `large-hero` div, nest the `large-hero__text-content` div. Then style
   text-align: center;
 }
 ```
+
+### Section 5 (CSS Architecture): Lecture 12 (What is BEM?)
+
+__What's BEM?__
+
+- __B__: Block: Blocks can be reused throughout the design. Class names of Blocks should have "-" between words.    
+- __E__: Element: An Element depends on its Block and cannot be used outside of the Block belongs to. Class names of Elements should have "-" between words of the Block part of the class name and "\__" between words of the Element part of the class name.    
+- __M__: Modifier: Modifiers can be used on Blocks or Elements. Used to indicate change to default state of whatever is being modified.  
+
+__About BEM__  
+
+- With BEM, CSS selectors should target elements directly with classes (instead of relying on type selectors, descendent selectors, and the cascade).
+- Because we limit the "cascade" part of CSS, we are free to move blocks around and reuse them throughout the page.
+- Blocks can be nested inside of other Blocks.
+- Identify patterns and then create *single-responsibility* blocks.
+- BEM makes the relationship between our HTML and CSS clear.
+- What about semantics? Not a problem See here for more: [About HTML semantics and front-end architecture](http://nicolasgallagher.com/about-html-semantics-front-end-architecture/).
