@@ -81,3 +81,22 @@ $ npm i postcss-nested -D
 ```
 $ npm i postcss-import -D
 ```
+
+__Position Hero Text in horizontal and vertical center of Hero Image__
+
+Inside the `large-hero` div, nest the `large-hero__text-content` div. Then style:
+
+```css
+.large-hero {
+  position: relative;
+}
+
+.large-hero__text-content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+```
