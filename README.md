@@ -107,7 +107,7 @@ __What's BEM?__
 
 - __B__: Block: Blocks can be reused throughout the design. Class names of Blocks should have "-" between words.    
 - __E__: Element: An Element depends on its Block and cannot be used outside of the Block belongs to. Class names of Elements should have "-" between words of the Block part of the class name and "\__" between words of the Element part of the class name.    
-- __M__: Modifier: Modifiers can be used on Blocks or Elements. Used to indicate change to default state of whatever is being modified.  
+- __M__: Modifier: Modifiers can be used on Blocks or Elements. Used to indicate change to default state of whatever is being modified. Modifier class names have "--" between words.    
 
 __About BEM__  
 
