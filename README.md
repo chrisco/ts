@@ -131,3 +131,24 @@ $ npm i browser-sync -D
 (2) Edit gulpfile's 'watch' task.    
 
 (3) Run with ```$ gulp watch```    
+
+### Section 7 (Mobile First): Lecture 17 (Mobile First, CSS, and Mixins)
+
+* What does "mobile first" mean?
+* It can mean different things in different contexts.
+* How does it apply to the travel site?
+* Begin with the __CSS__.
+
+__Mixins__
+
+(1) Install postcss-mixins:
+
+```
+$ npm i -D postcss-mixins
+```
+
+(2) Edit ```gulp/tasks/styles.css``` (require and use postcss-mixins).
+
+(3) Create ```app/assets/styles/base/_mixins.css``` (define media query mixins).
+
+(4) Begin using the mixins (in ```app/assets/styles/modules/_large-hero.css```)
