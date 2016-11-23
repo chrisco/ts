@@ -152,3 +152,13 @@ $ npm i -D postcss-mixins
 (3) Create ```app/assets/styles/base/_mixins.css``` (define media query mixins).
 
 (4) Begin using the mixins (in ```app/assets/styles/modules/_large-hero.css```)
+
+### Section 7 (Mobile First): Lecture 18 (Responsive Images)
+
+Two situations and coding patterns:    
+
+(A) Art direction and cropping: Use the ```<picture>``` element solution.
+
+(B) Image resolution and file size: Use the ```<img srcset="...">``` solution.
+
+(C) Use both at the same time, as done in this project (see commit).
