@@ -101,7 +101,7 @@ Inside the `large-hero` div, nest the `large-hero__text-content` div. Then style
 }
 ```
 
-### Section 5 (CSS Architecture): Lecture 12 (What is BEM?)
+### Section 5 (CSS Architecture): Lecture 12 (BEM)
 
 __What's BEM?__
 
@@ -117,3 +117,17 @@ __About BEM__
 - Identify patterns and then create *single-responsibility* blocks.
 - BEM makes the relationship between our HTML and CSS clear.
 - What about semantics? Not a problem See here for more: [About HTML semantics and front-end architecture](http://nicolasgallagher.com/about-html-semantics-front-end-architecture/).
+
+### Section 6 (Gulp Timeout): Lecture 14 (Browsersync)
+
+Browsersync is pretty awesome. We use it as a web server and to automatically reload the browser when HTML changes and/or __inject__ CSS when CSS changes (no page reload required!). It also syncs across browsers, such as if you have an instance of Chrome open and an instance of Firefox open. And lets you test on a mobile device connected to the same network simply by going to an URL, such as http://10.0.0.0:3000.   
+
+(1) Install:
+
+```
+$ npm i browser-sync -D
+```
+
+(2) Edit gulpfile's 'watch' task.    
+
+(3) Run with ```$ gulp watch```    
