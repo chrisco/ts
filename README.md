@@ -162,3 +162,5 @@ Two situations and coding patterns:
 (B) Image resolution and file size: Use the ```<img srcset="...">``` solution.
 
 (C) Use both at the same time, as done in this project (see commit).
+
+__Testing With Chrome Dev Tools__
