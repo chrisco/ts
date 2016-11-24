@@ -164,3 +164,9 @@ Two situations and coding patterns:
 (C) Use both at the same time, as done in this project (see commit).
 
 __Testing With Chrome Dev Tools__
+
+### Section 8 (Build the Site): Lecture 20 (Creating Reusable Blocks)
+
+* Good video to watch more than once.
+* Create and use some new CSS modules (for page-section and wrapper classes).
+* Modify a number of existing rules (for btn and hero large-hero classes).
