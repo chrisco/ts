@@ -170,3 +170,25 @@ __Testing With Chrome Dev Tools__
 * Good video to watch more than once.
 * Create and use some new CSS modules (for page-section and wrapper classes).
 * Modify a number of existing rules (for btn and hero large-hero classes).
+
+### Section 8 (Build the Site): Lecture 21 (Headline Block)
+
+Continue work started in previous lecture.
+
+### Section 8 (Build the Site): Lecture 22 (Column Layout Block)
+
+* Another good video to watch more than once.
+* Create reusable block to apply column layouts.
+* [Clearfix](https://www.google.com/search?q=clearfix) – "A clearfix is a way for an element to automatically clear its child elements, so that you don't need to add additional markup. It's generally used in float layouts where elements are floated to be stacked horizontally." (SOURCE: Stack Overflow)
+* Gutters.
+
+__Clearfix Mixin__    
+
+```css
+@define-mixin clearfix {
+  &::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+```
