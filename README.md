@@ -192,3 +192,5 @@ __Clearfix Mixin__
     display: table;
   }
 ```
+
+### Section 8 (Build the Site): Lecture 23 (Attention to Detail Part 1)
