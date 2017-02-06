@@ -194,3 +194,6 @@ __Clearfix Mixin__
 ```
 
 ### Section 8 (Build the Site): Lecture 23 (Attention to Detail Part 1)
+
+* Another good video to watch more than once.
+* Make images responsive and use different sizes/resolutions.
