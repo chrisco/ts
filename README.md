@@ -132,7 +132,7 @@ $ npm i browser-sync -D
 
 (3) Run with ```$ gulp watch```    
 
-### Section 7 (Mobile First): Lecture 17 (Mobile First, CSS, and Mixins)
+### Section 7 (Mobile First Essentials): Lecture 17 (Mobile First, CSS, and Mixins)
 
 * What does "mobile first" mean?
 * It can mean different things in different contexts.
@@ -153,7 +153,7 @@ $ npm i -D postcss-mixins
 
 (4) Begin using the mixins (in ```app/assets/styles/modules/_large-hero.css```)
 
-### Section 7 (Mobile First): Lecture 18 (Responsive Images)
+### Section 7 (Mobile First Essentials): Lecture 18 (Responsive Images)
 
 Two situations and coding patterns:    
 
@@ -165,17 +165,17 @@ Two situations and coding patterns:
 
 __Testing With Chrome Dev Tools__
 
-### Section 8 (Build the Site): Lecture 20 (Creating Reusable Blocks)
+### Section 8 (Let's Build): Lecture 20 (Creating Reusable Blocks)
 
 * Good video to watch more than once.
 * Create and use some new CSS modules (for page-section and wrapper classes).
 * Modify a number of existing rules (for btn and hero large-hero classes).
 
-### Section 8 (Build the Site): Lecture 21 (Headline Block)
+### Section 8 (Let's Build): Lecture 21 (Headline Block)
 
 Continue work started in previous lecture.
 
-### Section 8 (Build the Site): Lecture 22 (Column Layout Block)
+### Section 8 (Let's Build): Lecture 22 (Column Layout Block)
 
 * Another good video to watch more than once.
 * Create reusable block to apply column layouts.
@@ -193,7 +193,16 @@ __Clearfix Mixin__
   }
 ```
 
-### Section 8 (Build the Site): Lecture 23 (Attention to Detail Part 1)
+### Section 8 (Let's Build): Lecture 23 (Attention to Detail Part 1)
 
 * Another good video to watch more than once.
 * Make images responsive and use different sizes/resolutions.
+
+### Section 8 (Let's Build): Lecture 24 (Attention to Detail Part 2)
+
+* Fix headline's top margin.
+* Improve paragraph typography (and do it __not__ using BEM).
+* Some good general CSS and development tips.
+* Responsive adjustments.
+
+### Section 9 (Git Timeout): Lecture 25 (Git Branches)
