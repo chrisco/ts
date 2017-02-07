@@ -206,3 +206,6 @@ __Clearfix Mixin__
 * Responsive adjustments.
 
 ### Section 9 (Git Timeout): Lecture 25 (Git Branches)
+
+* Branch and merge using command line.
+* Merge using GutHub.
