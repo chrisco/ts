@@ -209,3 +209,10 @@ __Clearfix Mixin__
 
 * Branch and merge using command line.
 * Merge using GutHub.
+
+### Section 1 (Building "Our Features" Section): Lecture 26 (Part 1)
+
+* Title element.
+* 2-column layout.
+* Feature items.
+* Responsive.
