@@ -224,4 +224,9 @@ __Clearfix Mixin__
 
 ### Section 11 (Building "Testimonial" Section): Lecture 28 (Part 1)
 
-* 
+* Background image.
+* Wrapper.
+* Section title.
+* Icon positioning.
+* 3-column layout with gutters.
+* Make and style reusable 'testimonial' Block (image and headlines).
