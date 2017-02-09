@@ -230,3 +230,10 @@ __Clearfix Mixin__
 * Icon positioning.
 * 3-column layout with gutters.
 * Make and style reusable 'testimonial' Block (image and headlines).
+
+### Section 11 (Building "Testimonial" Section): Lecture 29 (Part 2)
+
+* Paragraphs.
+* Padding and gutters.
+* Make the testimonial blocks equal height (with Flexbox).
+* Style for mobile (multiple fixes and adjustments).
