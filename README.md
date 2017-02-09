@@ -208,4 +208,20 @@ __Clearfix Mixin__
 ### Section 9 (Git Timeout): Lecture 25 (Git Branches)
 
 * Branch and merge using command line.
-* Merge using GutHub.
+* Merge using GitHub.
+
+### Section 10 (Building "Our Features" Section): Lecture 26 (Part 1)
+
+* Title element.
+* 2-column layout.
+* Feature items.
+* Responsive.
+
+### Section 10 (Building "Our Features" Section): Lecture 27 (Part 2)
+
+* Make the "Our Features" section responsive
+* Merge using Git's ```--no-ff``` option.
+
+### Section 11 (Building "Testimonial" Section): Lecture 28 (Part 1)
+
+* 
