@@ -870,8 +870,8 @@ a {
 }
 
 .feature-item {
-  position      : relative;
-  padding-bottom: 2.55rem;
+  position: relative;
+  padding : 0 1.2rem 2.55rem;
 }
 
 @media(min-width: 530px) {
@@ -890,6 +890,7 @@ a {
 
     .feature-item__icon {
         position: absolute;
+        padding-left: 1.2rem;
         left: 0;
     }
 }
@@ -899,7 +900,7 @@ a {
     font-weight  : 300;
     margin-top   : 0.7em;
     margin-bottom: 0.8rem;
-    text-align: center;
+    text-align   : center;
 }
 
 @media(min-width: 530px) {

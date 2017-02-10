@@ -1,6 +1,6 @@
 .feature-item {
-  position      : relative;
-  padding-bottom: 2.55rem;
+  position: relative;
+  padding : 0 1.2rem 2.55rem;
   @mixin atSmall {
     padding-left: 94px;
   }
@@ -9,8 +9,9 @@
     display: block;
     margin : 0 auto;
     @mixin atSmall {
-      position: absolute;
-      left    : 0;
+      position    : absolute;
+      padding-left: 1.2rem;
+      left        : 0;
     }
   }
 
@@ -19,11 +20,11 @@
     font-weight  : 300;
     margin-top   : 0.7em;
     margin-bottom: 0.8rem;
-    text-align: center;
+    text-align   : center;
     @mixin atSmall {
-      font-size: 1.875rem;
+      font-size : 1.875rem;
       text-align: left;
-      margin-top   : 1em;
+      margin-top: 1em;
     }
   }
 }
