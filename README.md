@@ -222,7 +222,7 @@ __Clearfix Mixin__
 * Make the "Our Features" section responsive
 * Merge using Git's ```--no-ff``` option.
 
-### Section 11 (Building "Testimonial" Section): Lecture 28 (Part 1)
+### Section 11 (Building "Testimonial" Section): Lecture 28 (Part 1 – Large Screens)
 
 * Background image.
 * Wrapper.
@@ -231,9 +231,15 @@ __Clearfix Mixin__
 * 3-column layout with gutters.
 * Make and style reusable 'testimonial' Block (image and headlines).
 
-### Section 11 (Building "Testimonial" Section): Lecture 29 (Part 2)
+### Section 11 (Building "Testimonial" Section): Lecture 29 (Part 2 – Small Screens)
 
 * Paragraphs.
 * Padding and gutters.
 * Make the testimonial blocks equal height (with Flexbox).
 * Style for mobile (multiple fixes and adjustments).
+
+### Section 11 (Building "Testimonial" Section): Lecture 30 (Part 3 – Medium Screens)
+
+* Adjust the breakpoints for the 3-column layout.
+* Add high-DPI copies of testimonial images.
+* Merge back into master.
