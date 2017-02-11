@@ -1,7 +1,7 @@
 .section-title {
-  font-size  : 2.55rem;
+  font-size: 2.55rem;
   font-weight: 300;
-  text-align : center;
+  text-align: center;
   @mixin atSmall {
     font-size: 3.75rem;
   }
@@ -15,16 +15,16 @@
   }
 
   &__icon {
-    display      : block;
-    margin-left  : auto;
-    margin-right : auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 6rem;
     @mixin atSmall {
-      position     : relative;
-      top          : 8px;
-      margin-right : 5rem;
-      margin-left  : 0;
-      display      : inline-block;
+      position: relative;
+      top: 8px;
+      margin-right: 5rem;
+      margin-left: 0;
+      display: inline-block;
       margin-bottom: 0;
     }
   }
