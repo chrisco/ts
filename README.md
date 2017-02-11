@@ -243,3 +243,19 @@ __Clearfix Mixin__
 * Adjust the breakpoints for the 3-column layout.
 * Add high-DPI copies of testimonial images.
 * Merge back into master.
+
+### Section: 12 (Gulp Timeout): Lecture 31 (Automated Sprites Part 1)
+
+* What's an Icon Sprite?
+* Get started:
+```
+$ npm i gulp-svg-sprite@1.3.1 -D
+```
+* Create 'createSprite' gulp task.
+* config svgSprite to generate CSS.
+* Code the template (/gulp/templates/sprite.css) with Mustache
+* Test it. The /app/temp/sprite/css/sprite.css file should be complete.
+
+### Section: 12 (Gulp Timeout): Lecture 32 (Automated Sprites Part 2)
+
+* 
