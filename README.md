@@ -253,9 +253,13 @@ $ npm i gulp-svg-sprite@1.3.1 -D
 ```
 * Create 'createSprite' gulp task.
 * config svgSprite to generate CSS.
-* Code the template (/gulp/templates/sprite.css) with Mustache
+* Code the template (/gulp/templates/sprite.css) with Mustache.
 * Test it. The /app/temp/sprite/css/sprite.css file should be complete.
 
 ### Section: 12 (Gulp Timeout): Lecture 32 (Automated Sprites Part 2)
 
-* 
+* Begin using the sprite image made last time.
+```
+$ npm i gulp-rename -D
+```
+* Good video to watch more than once.
