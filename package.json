@@ -23,6 +23,7 @@
   "devDependencies": {
     "autoprefixer": "^6.5.3",
     "browser-sync": "^2.18.2",
+    "del": "^2.2.2",
     "eslint": "^3.10.0",
     "eslint-config-airbnb": "^13.0.0",
     "eslint-plugin-import": "^2.2.0",

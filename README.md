@@ -263,3 +263,15 @@ $ npm i gulp-svg-sprite@1.3.1 -D
 $ npm i gulp-rename -D
 ```
 * Good video to watch more than once.
+
+### Section: 12 (Gulp Timeout): Lecture 33 (Automated Sprites Part 3)
+
+* Make new sprite-related gulp tasks (beginClean, endClean).
+```
+$ npm i del -D
+```
+* Adjust all icons on page so they use the sprite.
+
+### Section: 13 (Finish Styling the Site): Lecture 34 (Footer)
+
+* 
