@@ -274,4 +274,8 @@ $ npm i del -D
 
 ### Section: 13 (Finish Styling the Site): Lecture 34 (Footer)
 
+* For desktop and mobile.
+
+### Section: 13 (Finish Styling the Site): Lecture 35 (Header Part 1)
+
 * 
