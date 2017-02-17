@@ -278,4 +278,13 @@ $ npm i del -D
 
 ### Section: 13 (Finish Styling the Site): Lecture 35 (Header Part 1)
 
+* Position and style header for large screens.
+* Install and use postcss-hexrgba so can write code like ```rgba($mainBlue, .3)```
+```
+$ npm i postcss-hexrgba -D
+```
+* Good one to watch again for CSS basics practice.
+
+### Section: 13 (Finish Styling the Site): Lecture 36 (Header Part 2)
+
 * 
