@@ -287,4 +287,9 @@ $ npm i postcss-hexrgba -D
 
 ### Section: 13 (Finish Styling the Site): Lecture 36 (Header Part 2)
 
+* Style header for mobile.
+* Another good one to watch again for CSS basics practice.
+
+### Section: 14 (JavaScript Organization): Lecture 37 (OOP)
+
 * 
