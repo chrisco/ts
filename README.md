@@ -292,8 +292,21 @@ $ npm i postcss-hexrgba -D
 
 ### Section: 14 (JavaScript Organization): Lecture 37 (OOP)
 
-* Super basic OOP explanation and demo.
+* Super-basic JavaScript OOP explanation and demo.
 
 ### Section: 14 (JavaScript Organization): Lecture 38 (The JS Module Pattern and "webpack")
+
+* Organizing JS with a "modules" folder.
+* Install and use Webpack to bundle and output modules for use by index.html.
+```
+$ npm i webpack -g
+```
+* Good explanation of ```module.exports```.
+* Install and demo jQuery (as part of module.experts demo).
+```
+$ npm i jquery -D
+```
+
+### Section: 14 (JavaScript Organization): Lecture 39 (Integrating "webpack" and Gulp)
 
 * 
