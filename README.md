@@ -292,4 +292,8 @@ $ npm i postcss-hexrgba -D
 
 ### Section: 14 (JavaScript Organization): Lecture 37 (OOP)
 
+* Super basic OOP explanation and demo.
+
+### Section: 14 (JavaScript Organization): Lecture 38 (The JS Module Pattern and "webpack")
+
 * 
