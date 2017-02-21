@@ -77,7 +77,7 @@ class Person {
   }
 
   greet() {
-    console.log(`Hello, my name is ${this.name} and my fav color is ${this.favoriteColor}.`);
+    console.log(`Hi, my name is ${this.name} and my fav color is ${this.favoriteColor}.`);
   }
 }
 
@@ -10318,7 +10318,7 @@ return jQuery;
 const $ = __webpack_require__(1); // For jQuery demo
 const Person = __webpack_require__(0);
 
-alert('Testing webpack automation and Browsersync');
+// alert('Testing webpack automation and Browsersync');
 
 const john = new Person('John Doe', 'purple');
 john.greet();
@@ -10326,7 +10326,8 @@ john.greet();
 const jane = new Person('Jane Doe', 'teal');
 jane.greet();
 
-$('h1').remove(); // jQuery demo
+// jQuery demo
+// $('h1').remove();
 
 
 /***/ })

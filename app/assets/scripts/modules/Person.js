@@ -5,7 +5,7 @@ class Person {
   }
 
   greet() {
-    console.log(`Hello, my name is ${this.name} and my fav color is ${this.favoriteColor}.`);
+    console.log(`Hi, my name is ${this.name} and my fav color is ${this.favoriteColor}.`);
   }
 }
 
