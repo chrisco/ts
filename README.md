@@ -309,4 +309,13 @@ $ npm i jquery -D
 
 ### Section: 14 (JavaScript Organization): Lecture 39 (Integrating "webpack" and Gulp)
 
+* Install, save, and use webpack.
+```
+$ npm i webpack -D
+```
+* Automate with gulp task, gulp watch, and Browsersync.
+* Handle errors.
+
+### Section: 14 (JavaScript Organization): Lecture 39 (Babel)
+
 * 

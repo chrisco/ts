@@ -1,6 +1,8 @@
 const $ = require('jquery'); // For jQuery demo
 const Person = require('./modules/Person');
 
+alert('Testing webpack automation and Browsersync');
+
 const john = new Person('John Doe', 'purple');
 john.greet();
 

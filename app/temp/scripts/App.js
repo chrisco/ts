@@ -10315,8 +10315,10 @@ return jQuery;
 /* 2 */
 /***/ (function(module, exports, __webpack_require__) {
 
-const $ = __webpack_require__(1);
+const $ = __webpack_require__(1); // For jQuery demo
 const Person = __webpack_require__(0);
+
+alert('Testing webpack automation and Browsersync');
 
 const john = new Person('John Doe', 'purple');
 john.greet();
@@ -10324,7 +10326,7 @@ john.greet();
 const jane = new Person('Jane Doe', 'teal');
 jane.greet();
 
-$('h1').remove();
+$('h1').remove(); // jQuery demo
 
 
 /***/ })
