@@ -1,6 +1,7 @@
 import Person from './modules/Person';
 
-const $ = require('jquery'); // For jQuery demo
+// For jQuery demo
+const $ = require('jquery');
 
 class Adult extends Person {
   payTaxes() {
@@ -15,4 +16,5 @@ const jane = new Adult('Jane Doe', 'teal');
 jane.greet();
 jane.payTaxes();
 
-$('h1').remove(); // jQuery demo
+// jQuery demo
+// $('h1').remove();
