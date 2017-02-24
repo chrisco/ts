@@ -318,4 +318,7 @@ $ npm i webpack -D
 
 ### Section: 14 (JavaScript Organization): Lecture 39 (Babel)
 
-* 
+* Install, save, and use babel.
+```
+$ npm i babel-core babel-loader babel-preset-es2015 -D
+```
