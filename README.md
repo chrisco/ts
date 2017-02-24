@@ -285,16 +285,16 @@ $ npm i postcss-hexrgba -D
 ```
 * Good one to watch again for CSS basics practice.
 
-### Section: 13 (Finish Styling the Site): Lecture 36 (Header Part 2)
+### Section 13 (Finish Styling the Site): Lecture 36 (Header Part 2)
 
 * Style header for mobile.
 * Another good one to watch again for CSS basics practice.
 
-### Section: 14 (JavaScript Organization): Lecture 37 (OOP)
+### Section 14 (JavaScript Organization): Lecture 37 (OOP)
 
 * Super-basic JavaScript OOP explanation and demo.
 
-### Section: 14 (JavaScript Organization): Lecture 38 (The JS Module Pattern and "webpack")
+### Section 14 (JavaScript Organization): Lecture 38 (The JS Module Pattern and "webpack")
 
 * Organizing JS with a "modules" folder.
 * Install and use Webpack to bundle and output modules for use by index.html.
@@ -307,7 +307,7 @@ $ npm i webpack -g
 $ npm i jquery -D
 ```
 
-### Section: 14 (JavaScript Organization): Lecture 39 (Integrating "webpack" and Gulp)
+### Section 14 (JavaScript Organization): Lecture 39 (Integrating "webpack" and Gulp)
 
 * Install, save, and use webpack.
 ```
@@ -316,9 +316,20 @@ $ npm i webpack -D
 * Automate with gulp task, gulp watch, and Browsersync.
 * Handle errors.
 
-### Section: 14 (JavaScript Organization): Lecture 39 (Babel)
+### Section 14 (JavaScript Organization): Lecture 40 (Babel)
 
 * Install, save, and use babel.
 ```
 $ npm i babel-core babel-loader babel-preset-es2015 -D
 ```
+* Had to do some troubleshooting, as there was a problem with the build. The problem had to do with postcss-import. I fixed it by downgrading to an older version of postcss-import, as well as downgrading to Webpack 1 (from 2). That might not have been necessary. See [this commit](https://github.com/chrisco/ts/commit/e9aa58b3b0cc56a9d1dd41e23309ae3904833a7e) for troubleshooting details and the changes.
+
+### Section 15 (Writing JavaScript for Our Header Menu): Lecture 41 (How to Avoid jQuery Spaghetti)
+
+* Begin coding hamburger menu and functionality (for mobile).
+* Use jQuery (later I will refactor to just use plain JS).
+
+### Section 15 (Writing JavaScript for Our Header Menu): Lecture 42 (Adjusting Our Menu)
+
+* Style hamburger menu and functionality (for mobile).
+* 
