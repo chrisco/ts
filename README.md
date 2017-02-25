@@ -326,10 +326,14 @@ $ npm i babel-core babel-loader babel-preset-es2015 -D
 
 ### Section 15 (Writing JavaScript for Our Header Menu): Lecture 41 (How to Avoid jQuery Spaghetti)
 
-* Begin coding mobile menu and its functionality using jQuery.
-* TODO: Refactor to just use plain JS).
+* Begin styling and building functionality (using jQuery) for mobile menu.
+* TODO: Refactor to just use plain JS?
 
 ### Section 15 (Writing JavaScript for Our Header Menu): Lecture 42 (Adjusting Our Menu)
 
-* Style mobile menu for small screens.
+* Finish styling mobile menu for small screens.
 * Fade and zoom transitions.
+
+### Section 16 (Revealing Elements on Scroll): Lecture 43 (Revealing Elements on Scroll)
+
+*
