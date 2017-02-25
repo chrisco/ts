@@ -327,13 +327,29 @@ $ npm i babel-core babel-loader babel-preset-es2015 -D
 ### Section 15 (Writing JavaScript for Our Header Menu): Lecture 41 (How to Avoid jQuery Spaghetti)
 
 * Begin styling and building functionality (using jQuery) for mobile menu.
-* TODO: Refactor to just use plain JS?
+* TODO: Refactor from jQuery to plain JS?
 
 ### Section 15 (Writing JavaScript for Our Header Menu): Lecture 42 (Adjusting Our Menu)
 
 * Finish styling mobile menu for small screens.
+
+### Section 15 (Writing JavaScript for Our Header Menu): Lecture 43 (Animating Hamburger Menu Icon Into an "X")
+
 * Fade and zoom transitions.
 
-### Section 16 (Revealing Elements on Scroll): Lecture 43 (Revealing Elements on Scroll)
+### Section 16 (Revealing Elements on Scroll): Lecture 44 (Revealing Elements on Scroll)
 
-*
+* Edit the JS file to reveal items at right time using the *waypoints* library.
+```
+$ npm i waypoints -D
+```
+* TODO: Refactor from jQuery to plain JS?
+
+### Section 16 (Revealing Elements on Scroll): Lecture 45 (Making our Reveal Module Reusable)
+
+* Refactor App.js and RevealOnScroll.js.
+* Add fade and zoom effects.
+
+### Section 17 (Desktop Sticky Header): Lecture 46 (Desktop Sticky Header Part 1)
+
+* 
