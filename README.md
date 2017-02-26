@@ -358,4 +358,9 @@ $ npm i waypoints -D
 ### Section 17 (Desktop Sticky Header): Lecture 47 (Desktop Sticky Header Part 2)
 
 * Highlight nav link based on the section where the user is currently on the page.
-* 
+* Use different waypoints depending on whether scrolling up or down.
+* Implement *smooth scrolling* with this package:
+```
+$ npm i jquery-smooth-scroll -D
+```
+* Add my own tweak to remove link highlight when user scrolls to top of window.
