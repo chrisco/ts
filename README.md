@@ -352,4 +352,10 @@ $ npm i waypoints -D
 
 ### Section 17 (Desktop Sticky Header): Lecture 46 (Desktop Sticky Header Part 1)
 
+* Create and user StickyHeader class (with jQuery and Waypoints).
+* Style and add scale and fade in/out transition effects.
+
+### Section 17 (Desktop Sticky Header): Lecture 47 (Desktop Sticky Header Part 2)
+
+* Highlight nav link based on the section where the user is currently on the page.
 * 
