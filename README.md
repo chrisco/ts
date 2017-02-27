@@ -378,3 +378,11 @@ $ npm i jquery-smooth-scroll -D
 * Bind open and close methods to *this*.
 * Close modal on *esc* keypress.
 * Add transition for open and close.
+
+### Bonus Fixes (my own)
+
+* Close mobile menu on  *esc* keypress.
+
+### Section 19 (Finishing Touches): Lecture 49 (Lazy Loading Images for Faster Page Loads)
+
+*
