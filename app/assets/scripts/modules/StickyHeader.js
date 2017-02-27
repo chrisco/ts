@@ -11,10 +11,21 @@ class StickyHeader {
     this.headerLinks = $('.primary-nav a');
     this.createPageSectionWaypoints();
     this.addSmoothScrolling();
+    this.logo = $('.site-header__logo');
+    this.scrollToTopOnLogoClick();
   }
 
   addSmoothScrolling() {
     this.headerLinks.smoothScroll();
+  }
+
+  // Added my own function to add a finishing touch/detail
+  scrollToTopOnLogoClick() {
+    this.logo.click(() => {
+      $('html, body').animate({
+        scrollTop: 0,
+      }, 300);
+    });
   }
 
   createHeaderWaypoint() {

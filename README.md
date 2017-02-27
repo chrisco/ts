@@ -382,6 +382,7 @@ $ npm i jquery-smooth-scroll -D
 ### Bonus Fixes (my own)
 
 * Close mobile menu on  *esc* keypress.
+* Logo click brings user to top of page (smoothly).
 
 ### Section 19 (Finishing Touches): Lecture 49 (Lazy Loading Images for Faster Page Loads)
 
