@@ -364,3 +364,12 @@ $ npm i waypoints -D
 $ npm i jquery-smooth-scroll -D
 ```
 * Add my own tweak to remove link highlight when user scrolls to top of window.
+
+### Section 18 (Build Our Own Modal / Lightbox Overlay): Lecture 48 (Building a Modal From Scratch Part 1)
+
+* Build and style modal, modal header, and modal content.
+* Add, position, and style social media icons.
+
+### Section 18 (Build Our Own Modal / Lightbox Overlay): Lecture 48 (Building a Modal From Scratch Part 1)
+
+*
