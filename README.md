@@ -370,6 +370,11 @@ $ npm i jquery-smooth-scroll -D
 * Build and style modal, modal header, and modal content.
 * Add, position, and style social media icons.
 
-### Section 18 (Build Our Own Modal / Lightbox Overlay): Lecture 48 (Building a Modal From Scratch Part 1)
+### Section 18 (Build Our Own Modal / Lightbox Overlay): Lecture 48 (Building a Modal From Scratch Part 2)
 
-*
+* Vertically center modal header and content.
+* Do some more styling.
+* Write JS to open and close the modal.
+* Bind open and close methods to *this*.
+* Close modal on *esc* keypress.
+* Add transition for open and close.
