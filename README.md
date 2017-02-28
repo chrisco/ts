@@ -386,4 +386,13 @@ $ npm i jquery-smooth-scroll -D
 
 ### Section 19 (Finishing Touches): Lecture 49 (Lazy Loading Images for Faster Page Loads)
 
+* Import and use the *lazysizes* package to lazy-load image files.
+```
+$ npm i lazysizes -D
+```
+* Edit webpack.config.js, index.html, and \_page-section.css.
+* Works well, but causes a bug with our Waypoints (fixed in next section).
+
+### Section 19 (Finishing Touches): Lecture 50 (Lazy Loading & Our Custom Waypoints)
+
 * 
