@@ -395,4 +395,9 @@ $ npm i lazysizes -D
 
 ### Section 19 (Finishing Touches): Lecture 50 (Lazy Loading & Our Custom Waypoints)
 
+* Refresh all waypoints when 'lazyload' classes fire load events.
+* Bug is now fixed.
+
+### Section 19 (Finishing Touches): Lecture 50 (Support for Responsive Images in Legacy Browsers)
+
 * 
