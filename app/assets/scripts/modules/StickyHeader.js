@@ -21,10 +21,12 @@ class StickyHeader {
 
   // Added my own function to add a finishing touch/detail
   scrollToTopOnLogoClick() {
+    const that = this;
     this.logo.click(() => {
       $('html, body').animate({
         scrollTop: 0,
       }, 300);
+      that.headerLinks.removeClass('is-current-link');
     });
   }
 
@@ -37,6 +39,7 @@ class StickyHeader {
           that.siteHeader.addClass('site-header--dark');
         } else {
           that.siteHeader.removeClass('site-header--dark');
+          that.headerLinks.removeClass('is-current-link');
         }
       },
     });
@@ -67,9 +70,6 @@ class StickyHeader {
             const matchingHeaderLink = currentPageSection.getAttribute('data-matching-link');
             that.headerLinks.removeClass('is-current-link');
             $(matchingHeaderLink).addClass('is-current-link');
-            if ($(window).scrollTop()) {
-              that.headerLinks.removeClass('is-current-link');
-            }
           }
         },
         offset: '-40%',

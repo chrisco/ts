@@ -386,4 +386,4 @@ $ npm i jquery-smooth-scroll -D
 
 ### Section 19 (Finishing Touches): Lecture 49 (Lazy Loading Images for Faster Page Loads)
 
-*
+* 
