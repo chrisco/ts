@@ -400,4 +400,8 @@ $ npm i lazysizes -D
 
 ### Section 19 (Finishing Touches): Lecture 50 (Support for Responsive Images in Legacy Browsers)
 
-* 
+* Import and use Picturefill to support legacy browsers:
+```
+$ npm i picturefill -D
+```
+*
