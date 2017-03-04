@@ -17,5 +17,6 @@
     "import/no-extraneous-dependencies": ["warn", {"devDependencies": false, "optionalDependencies": false, "peerDependencies": false}],
     "arrow-body-style": "warn",
     "no-new": "warn",
+    "comma-dangle": "warn", // Changed from ERROR to WARN Because, in gulp/tasks/modernizr.js, putting a comma where I commented breaks things.
   }
 }

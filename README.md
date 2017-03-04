@@ -274,7 +274,7 @@ $ npm i del -D
 
 ### Section: 13 (Finish Styling the Site): Lecture 34 (Footer)
 
-* For desktop and mobile.
+For desktop and mobile.
 
 ### Section: 13 (Finish Styling the Site): Lecture 35 (Header Part 1)
 
@@ -292,7 +292,7 @@ $ npm i postcss-hexrgba -D
 
 ### Section 14 (JavaScript Organization): Lecture 37 (OOP)
 
-* Super-basic JavaScript OOP explanation and demo.
+Super-basic JavaScript OOP explanation and demo.
 
 ### Section 14 (JavaScript Organization): Lecture 38 (The JS Module Pattern and "webpack")
 
@@ -331,11 +331,11 @@ $ npm i babel-core babel-loader babel-preset-es2015 -D
 
 ### Section 15 (Writing JavaScript for Our Header Menu): Lecture 42 (Adjusting Our Menu)
 
-* Finish styling mobile menu for small screens.
+Finish styling mobile menu for small screens.
 
 ### Section 15 (Writing JavaScript for Our Header Menu): Lecture 43 (Animating Hamburger Menu Icon Into an "X")
 
-* Fade and zoom transitions.
+Fade and zoom transitions.
 
 ### Section 16 (Revealing Elements on Scroll): Lecture 44 (Revealing Elements on Scroll)
 
@@ -398,10 +398,29 @@ $ npm i lazysizes -D
 * Refresh all waypoints when 'lazyload' classes fire load events.
 * Bug is now fixed.
 
-### Section 19 (Finishing Touches): Lecture 50 (Support for Responsive Images in Legacy Browsers)
+### Section 19 (Finishing Touches): Lecture 51 (Support for Responsive Images in Legacy Browsers)
 
-* Import and use Picturefill to support legacy browsers:
+Import and use *picturefill* to support legacy browsers:
 ```
 $ npm i picturefill -D
 ```
+
+### Section 19 (Finishing Touches): Lecture 52 (Support for SVG Icons in Legacy Browsers Part 1)
+
+* Import and use *gulp-svg2png* to generate png version of svg sprite:
+```
+$ npm i gulp-svg2png@0.3.0 -D
+```
+* Import and use *gulp-modernizr* to ensure the app serves the right version of the sprite, depending on the browser being used:
+```
+$ npm i gulp-modernizr -D
+```
+* Good video to watch more than once.
+
+### Section 19 (Finishing Touches): Lecture 53 (Support for SVG Icons in Legacy Browsers Part 2)
+
+*
+
+### Section 19 (Finishing Touches): Lecture 54 (Support for Flexbox Layout in Legacy Browsers
+
 *
