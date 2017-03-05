@@ -419,7 +419,9 @@ $ npm i gulp-modernizr -D
 
 ### Section 19 (Finishing Touches): Lecture 53 (Support for SVG Icons in Legacy Browsers Part 2)
 
-*
+* Edit gulp task in sprite.js create new rule in \_sprite.css.
+* Edit the template in sprite.css.
+* Good video to watch more than once.
 
 ### Section 19 (Finishing Touches): Lecture 54 (Support for Flexbox Layout in Legacy Browsers
 
