@@ -370,7 +370,7 @@ $ npm i jquery-smooth-scroll -D
 * Build and style modal, modal header, and modal content.
 * Add, position, and style social media icons.
 
-### Section 18 (Build Our Own Modal / Lightbox Overlay): Lecture 48 (Building a Modal From Scratch Part 2)
+### Section 18 (Build Our Own Modal / Lightbox Overlay): Lecture 49 (Building a Modal From Scratch Part 2)
 
 * Vertically center modal header and content.
 * Do some more styling.
@@ -384,7 +384,7 @@ $ npm i jquery-smooth-scroll -D
 * Close mobile menu on  *esc* keypress.
 * Logo click brings user to top of page (smoothly).
 
-### Section 19 (Finishing Touches): Lecture 49 (Lazy Loading Images for Faster Page Loads)
+### Section 19 (Finishing Touches): Lecture 50 (Lazy Loading Images for Faster Page Loads)
 
 * Import and use the *lazysizes* package to lazy-load image files.
 ```
@@ -393,19 +393,19 @@ $ npm i lazysizes -D
 * Edit webpack.config.js, index.html, and \_page-section.css.
 * Works well, but causes a bug with our Waypoints (fixed in next section).
 
-### Section 19 (Finishing Touches): Lecture 50 (Lazy Loading & Our Custom Waypoints)
+### Section 19 (Finishing Touches): Lecture 51 (Lazy Loading & Our Custom Waypoints)
 
 * Refresh all waypoints when 'lazyload' classes fire load events.
 * Bug is now fixed.
 
-### Section 19 (Finishing Touches): Lecture 51 (Support for Responsive Images in Legacy Browsers)
+### Section 19 (Finishing Touches): Lecture 52 (Support for Responsive Images in Legacy Browsers)
 
 Import and use *picturefill* to support legacy browsers:
 ```
 $ npm i picturefill -D
 ```
 
-### Section 19 (Finishing Touches): Lecture 52 (Support for SVG Icons in Legacy Browsers Part 1)
+### Section 19 (Finishing Touches): Lecture 53 (Support for SVG Icons in Legacy Browsers Part 1)
 
 * Import and use *gulp-svg2png* to generate png version of svg sprite:
 ```
@@ -417,12 +417,16 @@ $ npm i gulp-modernizr -D
 ```
 * Good video to watch more than once.
 
-### Section 19 (Finishing Touches): Lecture 53 (Support for SVG Icons in Legacy Browsers Part 2)
+### Section 19 (Finishing Touches): Lecture 54 (Support for SVG Icons in Legacy Browsers Part 2)
 
 * Edit gulp task in sprite.js create new rule in \_sprite.css.
 * Edit the template in sprite.css.
 * Good video to watch more than once.
 
-### Section 19 (Finishing Touches): Lecture 54 (Support for Flexbox Layout in Legacy Browsers
+### Section 19 (Finishing Touches): Lecture 55 (Support for Flexbox Layout in Legacy Browsers
 
-*
+* Add .flexbox class to equal-height column rules in CSS.
+* Modernizr will then apply .no-flexbox class to html element if needed. Floats would then be used instead of Flexbox for the layout.
+* Fix artifact in the logo and some icons by adding padding around images in sprite.
+* That's it for the website!
+* TODO: FIXME: Button clicks no longer opening modal.
