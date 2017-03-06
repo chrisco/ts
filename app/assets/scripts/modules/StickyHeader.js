@@ -18,8 +18,8 @@ class StickyHeader {
   }
 
   refreshWaypoints() {
-    this.lazyImages.on('load', function () {
-      Waypoint.refreshAll();
+    this.lazyImages.on('load', () => {
+      Waypoint.refreshAll(); // ESLint was ERRORing here, so I changed rule to WARN.
     });
   }
 
