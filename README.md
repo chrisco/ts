@@ -423,10 +423,35 @@ $ npm i gulp-modernizr -D
 * Edit the template in sprite.css.
 * Good video to watch more than once.
 
-### Section 19 (Finishing Touches): Lecture 55 (Support for Flexbox Layout in Legacy Browsers
+### Section 19 (Finishing Touches): Lecture 55 (Support for Flexbox Layout in Legacy Browsers)
 
 * Add .flexbox class to equal-height column rules in CSS.
 * Modernizr will then apply .no-flexbox class to html element if needed. Floats would then be used instead of Flexbox for the layout.
 * Fix artifact in the logo and some icons by adding padding around images in sprite.
 * That's it for the website!
 * TODO: FIXME: Button clicks no longer opening modal.
+
+### Section 20 (Building and Deploying): Lecture 56 (Preparing Our Files for Go Live Part 1)
+
+* Create new gulp file (build.js) and tasks to build everything for the new 'dist' folder.
+* Import and use *gulp-imagemin* to reduce image file sizes:
+```
+$ npm i gulp-imagemin -D
+```
+* Import and use *gulp-usemin* to minify html, css, and js files:
+```
+$ npm i gulp-usemin -D
+```
+* Comment index.html so usemin knows what files to handle and where to put them.
+
+### Section 20 (Building and Deploying): Lecture 57 (Preparing Our Files for Go Live Part 2)
+
+*
+
+### Section 20 (Building and Deploying): Lecture 58 (Go Live! Deploying our Site to GitHub Pages)
+
+*
+
+### Section 20 (Building and Deploying): Lecture 59 (Git Tips - How to Handle, and Avoid, Merge Conflicts)
+
+*
