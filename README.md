@@ -438,7 +438,7 @@ $ npm i gulp-modernizr -D
 ```
 $ npm i gulp-imagemin -D
 ```
-* Import and use *gulp-usemin* to minify html, css, and js files:
+* Import and use *gulp-usemin* to copy and transform html, css, and js files:
 ```
 $ npm i gulp-usemin -D
 ```
@@ -446,7 +446,13 @@ $ npm i gulp-usemin -D
 
 ### Section 20 (Building and Deploying): Lecture 57 (Preparing Our Files for Go Live Part 2)
 
-*
+* Configure usemin to version and compress the files before saving to 'dist' folder using *gulp-rev*, *gulp-cssnano*, and *gulp-uglify*:
+```
+$ npm i gulp-rev gulp-cssnano gulp-uglify -D
+```
+* Make the 'build' task flexible so we can reuse it (by creating a copyGeneralFiles task).
+* Trigger and complete icons, scripts, and styles tasks before the usmin task runs.
+* Add previewDist task to launch site in browser (so we can check it)
 
 ### Section 20 (Building and Deploying): Lecture 58 (Go Live! Deploying our Site to GitHub Pages)
 
