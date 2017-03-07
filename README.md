@@ -456,7 +456,14 @@ $ npm i gulp-rev gulp-cssnano gulp-uglify -D
 
 ### Section 20 (Building and Deploying): Lecture 58 (Go Live! Deploying our Site to GitHub Pages)
 
-*
+* GitHub hosting is available at: *http://username.github.io/repo-name*
+* GitHub looks for files to host in the 'docs' folder, not the 'dist' one.
+* So we must edit 'build' tasks to point to 'docs' folder. Also make some other changes there.
+* Also must edit index.html: Remove the '/' at start of usemin 'build' comments. WHY? Because with the '/' there, it means 'start at project root.' Without it there it means 'start relative to index.html,' which is what we need.
+* Edit background CSS tasks the same way (to use relative paths).
+* Delete 'dist' folder and run ```$ gulp build```
+* Push to GitHub and enable GitHub pages for this repo (in settings).
+* The site should be live here: [http://chrisco.github.io/ts](http://chrisco.github.io/ts)
 
 ### Section 20 (Building and Deploying): Lecture 59 (Git Tips - How to Handle, and Avoid, Merge Conflicts)
 
